@@ -8,4 +8,4 @@ def root():
 
 @app.get("/method/{name}")
 def method_name_view(name: str):
-	return f"method":{name}
+	return f"method":"{name}"
